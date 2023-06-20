@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 @font-face {
+    font-family: "kablammo";
+    src: url("kablammo-regular-variablefont_morf-webfont.woff") format("woff");
+}
+@font-face {
     font-family: 'Anton', sans-serif;
     src: url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 }
@@ -18,9 +22,7 @@
 .top-container{
     display: flex;
     justify-content: flex-end;
-    flex-direction: row-reverse;
-    border: 3px aquamarine solid;
-    border-style: ridge;
+    flex-direction: row-reverse
 }
 
 .middle-container{
@@ -37,9 +39,10 @@ ul{
 }
 nav li a{
     display: block;
-    height: 100px;
+    height: 50px;
     padding: 8px 16px;
     font-size: large;
+    font-family: 'kablammo', sans-serif;
     text-decoration: none;
 }
 
@@ -49,26 +52,33 @@ nav li a:hover {
   }
 
 .title{
-    font-size: larger;
-    font-family: 'Anton', sans-serif;
+    font-size: xx-large;
+    font-family: 'kablammo', sans-serif;
     color:rgb(78, 11, 123);
     text-shadow: -.25px -.25px 0 rgb(0, 0, 0), .25px -.25px 0 rgb(0, 0, 0), -.25px .25px 0 rgb(0, 0, 0), .25px .25px 0 rgb(0, 0, 0);
     margin: 0;
     padding: 5px;
     padding-left: 5px;
+    text-decoration: underline;
     background: rgb(229,207,244);
-    background: linear-gradient(103deg, rgba(212, 147, 255, 0.521) 0%, rgba(255,253,242,0.03982843137254899) 60%);
+    background: linear-gradient(103deg, rgba(212, 147, 255, 0.201) 0%, rgba(255,253,242,0.03982843137254899) 60%);
 }
-.subtitle{
+/*.subtitle{
     display: flex;
     color:aquamarine;
+    text-decoration: none;
     text-shadow: -.25px -.25px 0 aqua, .25px -.25px 0 aqua, -.25px .25px 0 aqua, .25px .25px 0 aqua;
-}
+}*/
 .intro{
     color: rgb(78, 11, 123);
     padding: 2%;
+    max-width: 25%;
     background: rgb(229,207,244);
     background: linear-gradient(103deg, rgb(198, 234, 253) 0%, rgba(255,253,242,0.03982843137254899) 60%);
+}
+
+.welcome{
+    font-family: 'kablammo', sans-serif;
 }
 .blog-post{
     max-width: 100%;
@@ -80,6 +90,17 @@ nav li a:hover {
     border: 3px aquamarine solid;
     border-style: ridge;
 }
+
+.blog-title{
+    font-size: 40px;
+    font-family: 'kablammo', sans-serif;
+    text-decoration: underline;
+}
+
+.blog-art-title{
+    font-family: 'kablammo', sans-serif;
+}
+
 .blog-image{
     display: block;
     margin-left: auto;
