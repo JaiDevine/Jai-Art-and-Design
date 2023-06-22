@@ -63,12 +63,8 @@ nav li a:hover {
     width: 100%;
     padding-left: 12px;
 }
-/*.subtitle{
-    display: flex;
-    color:aquamarine;
-    text-decoration: none;
-    text-shadow: -.25px -.25px 0 aqua, .25px -.25px 0 aqua, -.25px .25px 0 aqua, .25px .25px 0 aqua;
-}*/
+
+
 .intro{
     color: rgb(78, 11, 123);
     padding: 2%;
