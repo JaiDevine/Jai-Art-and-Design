@@ -29,6 +29,7 @@
 .middle-container{
     display: flex;
     flex-direction: row-reverse;
+    justify-content: flex-end;
 }
 
 ul{
@@ -67,14 +68,25 @@ nav li a:hover {
 
 .intro{
     color: rgb(78, 11, 123);
-    padding: 2%;
-    max-width: 25%;
+    max-width: 35%;
+    height: 25%;
+    margin-left: .5%;
+}
+
+.index-ad{
+    max-width: 75%;
+    height: auto;
+    justify-content: center;
+}
+
+.welcome-box{
+    padding-top: 0px;
     background: rgb(229,207,244);
-    background: linear-gradient(103deg, rgb(198, 234, 253) 0%, rgba(255,253,242,0.03982843137254899) 60%);
 }
 
 .welcome{
     font-family: 'kablammo', sans-serif;
+    background: rgb(229,207,244);
 }
 .blog-post{
     max-width: 100%;
